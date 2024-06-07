@@ -15,7 +15,7 @@
   <div class="card card-outline card-primary">
     <div class="card-header text-center text-muted">
       <div>
-         <span>Masuk <b><?= APP_NAME ?></b> Billing<sup><small> v<?= APP_VERSION_STR ?></sup></small></span>
+         <span>Masuk <b><?= APP_NAME ?></b><sup><small> v<?= APP_VERSION_STR ?></sup></small></span>
       </div>
     </div>
     <div class="card-body">
