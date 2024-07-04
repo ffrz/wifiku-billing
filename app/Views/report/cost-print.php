@@ -13,15 +13,15 @@ $this->title = 'Laporan Biaya Opr.';
     <div class="row">
         <div class="col-12">
             <h6 class="text-center" style="margin:0;"><?= esc($settings->get('app.store_name')) ?></h6>
-            <h5 class="text-center" style="margin:0;">RINCIAN LAPORAN BIAYA OPERASIONAL</h5>
+            <h5 class="text-center" style="margin:0;">LAPORAN RINCIAN BIAYA OPERASIONAL</h5>
             <h6 class="text-center" style="margin:0;"><?= month_names($filter->month) . ' ' . $filter->year ?></h6>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 mb-2">
             <div class="table-responsive">
-                <table class="table table-pad-xs table-bordered" style="width:100%">
-                <thead class="text-center">
+                <table class="table table-pad-xs table-sm table-bordered" style="width:100%">
+                    <thead class="text-center">
                         <tr>
                             <th>No</th>
                             <th>Tanggal</th>
